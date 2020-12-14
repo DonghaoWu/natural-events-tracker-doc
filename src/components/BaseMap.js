@@ -19,7 +19,7 @@ const BaseMap = ({ center, zoom, eventsData }) => {
 
     const LocationMarkerWrapper = (eventData, coordinates, type, date) => {
         return <LocationMarker key={uuidv4()} type={type} lng={coordinates[0]} lat={coordinates[1]} 
-            onClick={() => handleClick({
+            handleShowInfo={() => handleClick({
                 id: eventData.id,
                 title: eventData.title,
                 lng: coordinates[0],

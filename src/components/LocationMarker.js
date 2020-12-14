@@ -4,7 +4,7 @@ import iceShelf from '@iconify-icons/openmoji/ice-shelf';
 import volcanoIcon from '@iconify-icons/fxemoji/volcano';
 import thunderstormSevere from '@iconify-icons/carbon/thunderstorm-severe';
 
-const LocationMarker = ({ lng, lat, onClick, type }) => {
+const LocationMarker = ({ type, handleShowInfo }) => {
     let locationIcon = '';
 
     switch (type) {
@@ -25,7 +25,7 @@ const LocationMarker = ({ lng, lat, onClick, type }) => {
     }
 
     return (
-        <div className='location-marker' onClick={onClick}>
+        <div className='location-marker' onClick={handleShowInfo}>
             <Icon icon={locationIcon} className={`${type} mapMarkerIcon`} />
         </div>
     )
