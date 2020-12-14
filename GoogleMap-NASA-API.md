@@ -117,6 +117,8 @@
     <img src="./assets/fe-p19-11.png" width=85%>
     </p>
 
+    - For develop purpose, you could add localhost:3000 temporarily.
+
     -----------------------------------------------------------------
 
 4. Create a .env file in root directory, create-react-app has the build in library to set up environment variables.
@@ -438,6 +440,7 @@
 #### `Comment:`
 1. Documentation:
     - [Heroku Configuration and Config Vars](https://devcenter.heroku.com/articles/config-vars)
+    - [Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack)
 
 __`本章用到的全部资料：`__
 
@@ -447,6 +450,7 @@ __`本章用到的全部资料：`__
 - [NASA EONET API documentation](https://eonet.sci.gsfc.nasa.gov/docs/v2.1)
 - [NPM google-map-react](https://www.npmjs.com/package/google-map-react)
 - [Heroku Configuration and Config Vars](https://devcenter.heroku.com/articles/config-vars)
+- [Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack)
 
 - #### Click here: [BACK TO CONTENT](#1.0)
 - #### Click here: [BACK TO NAVIGASTION](https://github.com/DonghaoWu/Frontend-tools-demo)

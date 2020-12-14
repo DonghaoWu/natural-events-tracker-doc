@@ -1,7 +1,11 @@
 # Natural-events-tracker-doc
 
+<p align="center">
+<img src="./assets/fe-p19-00.png" width=85%>
+</p>
+
 ## Introduction:
-- How to bulid this app:[]()
+- How to bulid this app:[https://github.com/DonghaoWu/natural-events-tracker-doc/blob/main/GoogleMap-NASA-API.md](https://github.com/DonghaoWu/natural-events-tracker-doc/blob/main/GoogleMap-NASA-API.md)
 - Deploy github URL:[https://natural-events-tracker-2021.herokuapp.com/](https://natural-events-tracker-2021.herokuapp.com/)
 
 - This is a natural events tracker application with added features from a Youtube video tutorial.
@@ -10,9 +14,10 @@
 
 ## Documentation:
 
-- [Mapbox documentation website](https://docs.mapbox.com/)
-- [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/api/)
-- [Markers and controls](https://docs.mapbox.com/mapbox-gl-js/api/markers/)
-- [Display driving directions](https://docs.mapbox.com/mapbox-gl-js/example/mapbox-gl-directions/)
-
-- [Mapbox examples](https://docs.mapbox.com/mapbox-gl-js/example/):gem:
+- [Google Cloud Platform](https://cloud.google.com/)
+- [Adding Custom Environment Variables in CRA](https://create-react-app.dev/docs/adding-custom-environment-variables/)
+- [NASA open APIs](https://api.nasa.gov/)
+- [NASA EONET API documentation](https://eonet.sci.gsfc.nasa.gov/docs/v2.1)
+- [NPM google-map-react](https://www.npmjs.com/package/google-map-react)
+- [Heroku Configuration and Config Vars](https://devcenter.heroku.com/articles/config-vars)
+- [Heroku Buildpack for create-react-app](https://github.com/mars/create-react-app-buildpack)
