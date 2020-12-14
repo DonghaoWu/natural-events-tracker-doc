@@ -4,7 +4,7 @@ import iceShelf from '@iconify-icons/openmoji/ice-shelf';
 import volcanoIcon from '@iconify-icons/fxemoji/volcano';
 import thunderstormSevere from '@iconify-icons/carbon/thunderstorm-severe';
 
-const LocationMarker = ({ lat, lng, onClick, type }) => {
+const LocationMarker = ({ lng, lat, onClick, type }) => {
     let locationIcon = '';
 
     switch (type) {

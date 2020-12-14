@@ -48,7 +48,7 @@ body{
   margin-top: -100px;
 }
 
-.location-info{
+.location-infoBox{
   position: absolute;;
   top:300px;
   right: 50px;
@@ -61,22 +61,26 @@ body{
   color:white;
 }
 
-.close-infoBox{
+.location-infoBox h2{
+  margin:2px 0;
+}
+
+.location-infoBox ul{
+  list-style-type:none;
+  padding:0;
+}
+
+.location-infoBox li{
+  padding: 5px 0;
+}
+
+.infoBox-headerContainer{
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.location-info h2{
-  margin:2px 0;
-}
-
-.location-info ul{
-  list-style-type:none;
-  padding:0;
-}
-
-.event-selector{
+.event-selectorBox{
   position: absolute;;
   top:80px;
   right: 50px;
@@ -90,23 +94,19 @@ body{
   z-index: 10;
 }
 
-.event-selector h2{
+.event-selectorBox h2{
   margin:2px 0;
 }
 
-.event-selector ul{
+.event-selectorBox ul{
   list-style-type:none;
   padding:0;
 }
 
-.event-selector li{
+.event-selectorBox li{
   padding: 5px 0;
   display: flex;
   justify-content: space-between;
-}
-
-.location-info li{
-  padding: 5px 0;
 }
 
 .fireIcon{
@@ -114,7 +114,7 @@ body{
 }
 
 .stormIcon{
-  color:blue;
+  color:black;
 }
 
 .selectorIcon{

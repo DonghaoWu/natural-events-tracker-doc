@@ -6,7 +6,7 @@ import BaseMap from './components/BaseMap';
 import './App.css';
 
 const App = () => {
-  const [eventData, setEventData] = useState([]);
+  const [eventsData, setEventsData] = useState([]);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -15,7 +15,7 @@ const App = () => {
       const res = await fetch('https://eonet.sci.gsfc.nasa.gov/api/v2.1/events');
       const { events } = await res.json();
 
-      setEventData(events);
+      setEventsData(events);
       setLoading(false);
     }
     fetchEvents();
@@ -24,7 +24,7 @@ const App = () => {
   return (
     <div>
       <Header />
-      {!loading ? <BaseMap eventData={eventData} /> : <Loader />};
+      {!loading ? <BaseMap eventsData={eventsData} /> : <Loader />};
     </div>
   )
 }

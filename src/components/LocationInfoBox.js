@@ -3,8 +3,8 @@ import closeFilled from '@iconify-icons/carbon/close-filled';
 
 const LoactionInfoBox = ({ info, setShowInfoBox }) => {
     return (
-        <div className='location-info'>
-            <div className='close-infoBox' >
+        <div className='location-infoBox'>
+            <div className='infoBox-headerContainer' >
                 <h2>Location Info:</h2>
                 <Icon icon={closeFilled} onClick={() => setShowInfoBox(false)} />
             </div>
@@ -14,7 +14,6 @@ const LoactionInfoBox = ({ info, setShowInfoBox }) => {
                 <li>Longitude: <strong>{info.lng}</strong></li>
                 <li>Latitude: <strong>{info.lat}</strong></li>
                 <li>TITLE: <strong>{info.title}</strong></li>
-
             </ul>
         </div>
     )
