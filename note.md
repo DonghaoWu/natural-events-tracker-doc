@@ -244,3 +244,5 @@ const Header = ()=>{
 
 export default Header;
 ```
+
+- delete yarn.lock
