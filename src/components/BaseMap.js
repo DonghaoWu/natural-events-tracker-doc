@@ -66,7 +66,7 @@ BaseMap.defaultProps = {
         lat: 42.3265,
         lng: -122.8756
     },
-    zoom: 4
+    zoom: 5
 }
 
 export default BaseMap;
