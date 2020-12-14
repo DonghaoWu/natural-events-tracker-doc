@@ -1,1 +1,1 @@
-# wildfire-tracker-doc
+# Natural-events-tracker-doc
