@@ -58,8 +58,8 @@
     - ./src/reportWebVitals.js
     - ./src/setupTest.js
 
-    - Delete `import` code in other files related to the files.
-    - Change Title in index.html
+    - Delete `import` code in other files related to the deleted files.
+    - Change Title in the index.html file.
 
     -----------------------------------------------------------------
 
@@ -116,7 +116,7 @@
     <img src="./assets/fe-p19-11.png" width=85%>
     </p>
 
-    - For develop purpose, you could add localhost:3000 temporarily.
+    - For develop purpose, you could add localhost:3000 temporarily to the website restrictions list.
 
     -----------------------------------------------------------------
 
