@@ -63,8 +63,8 @@ const BaseMap = ({ center, zoom, eventsData }) => {
 
 BaseMap.defaultProps = {
     center: {
-        lat: 42.3265,
-        lng: -122.8756
+        lat: 28,
+        lng: -180
     },
     zoom: 3
 }
