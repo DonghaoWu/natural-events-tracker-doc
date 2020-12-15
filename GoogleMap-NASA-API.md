@@ -1,10 +1,10 @@
-# Google-Map & NASA API
+# Natural events tracker
 
 ### `Key Words: Google Cloud Platform API, NASA API, Deploy CRA on Heroku, Iconify, google-map-react.`
 
 - #### Click here: [BACK TO NAVIGASTION](https://github.com/DonghaoWu/Frontend-tools-demo)
 
-## `Section: Natural events tracker.` (Basic)
+## `Section: Google-Map & NASA API.` (Basic)
 
 ### `Summary`: In this documentation, we learn to build a Front end application with Google map APi and NASA API.
 
@@ -33,8 +33,7 @@
 
 - [1.1 Initialization.](#1.1)
 - [1.2 Frontend set up.](#1.2)
-- [1.3 Notes on this application.](#1.3)
-- [1.4 Developer advices.](#1.4)
+- [1.3 Deploy on Heroku.](#1.3)
 
 ------------------------------------------------------------
 
