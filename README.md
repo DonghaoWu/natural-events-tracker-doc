@@ -5,7 +5,7 @@
 </p>
 
 ## Introduction:
-- How to bulid this app:[https://github.com/DonghaoWu/natural-events-tracker-doc/blob/main/GoogleMap-NASA-API.md](https://github.com/DonghaoWu/natural-events-tracker-doc/blob/main/GoogleMap-NASA-API.md)
+- How to bulid this app:[https://github.com/DonghaoWu/natural-events-tracker-doc-heroku/blob/main/GoogleMap-NASA-API.md](https://github.com/DonghaoWu/natural-events-tracker-doc-heroku/blob/main/GoogleMap-NASA-API.md)
 - Deploy Heroku URL:[https://natural-events-tracker-2021.herokuapp.com/](https://natural-events-tracker-2021.herokuapp.com/)
 
 - This is a natural events tracker application with added features from a Youtube video tutorial.
