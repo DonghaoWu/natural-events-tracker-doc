@@ -1,4 +1,4 @@
-# Natural-events-tracker-doc
+# Natural-events-tracker-doc-heroku
 
 <p align="center">
 <img src="./assets/fe-p19-00.png" width=85%>
